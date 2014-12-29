@@ -1,0 +1,82 @@
+\documentclass[10pt]{article}
+\usepackage{array, xcolor, lipsum, bibentry}
+\usepackage[margin=3cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel} %sudo apt-get install texlive-lang-spanish 
+\usepackage[utf8]{inputenc}
+\usepackage{natbib}
+
+\title{\bfseries Guillermo Federico Olmedo}
+\author{}
+\date{}
+ 
+\definecolor{lightgray}{gray}{0.8}
+\newcolumntype{L}{>{\raggedleft}p{0.14\textwidth}}
+\newcolumntype{R}{p{0.8\textwidth}}
+\newcommand\VRule{\color{lightgray}\vrule width 0.5pt}
+
+ 
+\begin{document}
+\maketitle
+\vspace{1em}
+\begin{minipage}[ht]{0.48\textwidth}
+\textbf{Personal}\\
+Rondeau 421\\
+Ciudad, M5500CCI\\
+Mendoza, Argentina\\
++54 261 6779074\\
+\textit{guillermo.olmedo@gmail.com}
+\end{minipage}
+\begin{minipage}[ht]{0.48\textwidth}
+\textbf{Laboral}\\
+San Martín 3853\\
+Luján de Cuyo, M5507EVY\\
+Mendoza, Argentina\\
++54 261 4963020 (ext 252)\\
+\textit{olmedo.guillermo@inta.gob.ar}
+\end{minipage}
+\vspace{20pt}
+ 
+ \section*{Educación}
+ \begin{tabular}{L!{\VRule}R}
+ 2014 a la fecha&{Estudiante de PhD en: \textit{Estimación de la evapotranspiración real de vid a diferentes escalas mediante modelos matemáticos y sensores remotos}, Universidad Nacional de Cuyo}\\[5pt]
+ 2001--2008&Ingeniero Agrónomo, Universidad Nacional de Cuyo, Argentina\\
+ \end{tabular} 
+ 
+  
+\section*{Experiencia en Investigación}
+\begin{tabular}{L!{\VRule}R}
+2012 a la&{\bf Investigador}, Instituto Nacional de Tecnología Agropecuaria\\
+fecha& Área de Recursos Naturales, EEA Mendoza\\
+& Coordinador Técnico de Módulo: \textit{Mapeo Digital de Suelos}. Programa Nacional de Suelos (2014--2016)\\\multicolumn{2}{c}{}\\
+2009--2012&{\bf Becario de Prácticas Profesionales}, Instituto Nacional de Tecnología Agropecuaria\\
+& Área de Recursos Naturales, EEA Mendoza\\
+& Proyecto Nacional: 
+\end{tabular}
+ 
+
+ 
+\section*{Idiomas}
+\begin{tabular}{L!{\VRule}R}
+Klingon&Mother tongue\\
+{\bf English}&{\bf Fluent}\\
+French&Fluent (DELF 2010)\\
+Japanese&Fair\\
+\end{tabular}
+ 
+\bibliographystyle{plain}
+\bibliography{publicaciones}
+
+
+ 
+\section*{Publicaciones}
+\begin{tabular}{L!{\VRule}R}
+2006&\bibentry{}\\[5pt]
+1986&\bibentry{}\\
+\end{tabular}
+
+
+{\vspace{20pt}\newline\newline
+\vspace{20pt}
+\scriptsize\hfill {Última actualización: \today}
+ \end{document}
