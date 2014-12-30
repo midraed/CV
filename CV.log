@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Debian) (preloaded format=pdflatex 2014.12.29)  30 DEC 2014 09:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/Debian) (preloaded format=pdflatex 2014.12.29)  30 DEC 2014 11:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1192,57 +1192,57 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.90 }
-      
+l.89 \end{itemize}}
+                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 5519) in paragraph at lines 90--90
+[]\T1/lmss/bx/n/10.95 Becario de prác-ti-cas pro-fe-sion-ales\T1/lmss/m/n/10.95
+ (+20) , \T1/lmss/m/sl/10.95 In-sti-tuto Na-cional de Tec-nología
+ []
 
-LaTeX Warning: Citation `book1' undefined on input line 121.
+[2] [3]
+
+LaTeX Warning: Citation `book1' undefined on input line 138.
 
 
-LaTeX Warning: Citation `book2' undefined on input line 121.
+LaTeX Warning: Citation `book2' undefined on input line 138.
 
 No file book.bbl.
 
-LaTeX Warning: Citation `misc1' undefined on input line 124.
+LaTeX Warning: Citation `misc1' undefined on input line 141.
 
 
-LaTeX Warning: Citation `misc2' undefined on input line 124.
+LaTeX Warning: Citation `misc2' undefined on input line 141.
 
 
-LaTeX Warning: Citation `misc3' undefined on input line 124.
+LaTeX Warning: Citation `misc3' undefined on input line 141.
 
 No file proceed.bbl.
-[3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 128.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 128.
+[4]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 145.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 145.
  (./CV.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 128.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 128.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 145.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 145.
+Package rerunfilecheck Info: File `CV.out' has not changed.
+(rerunfilecheck)             Checksum: DE33F24019D8A8A7815EEB911787B4DB;1219.
 
-
-Package rerunfilecheck Warning: File `CV.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `CV.out':
-(rerunfilecheck)             Before: A91A197E4AE5137CD699683C8F534FE7;1124
-(rerunfilecheck)             After:  DE33F24019D8A8A7815EEB911787B4DB;1219.
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 26588 strings out of 494959
- 488264 string characters out of 6179405
+ 26604 strings out of 494959
+ 488441 string characters out of 6179405
  581121 words of memory out of 5000000
- 29375 multiletter control sequences out of 15000+600000
- 63750 words of font info for 69 fonts, out of 8000000 for 9000
+ 29376 multiletter control sequences out of 15000+600000
+ 64457 words of font info for 76 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
  69i,12n,60p,10481b,782s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/
@@ -1250,10 +1250,10 @@ public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/s
 hare/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/publi
 c/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on CV.pdf (3 pages, 129224 bytes).
+Output written on CV.pdf (4 pages, 135401 bytes).
 PDF statistics:
- 100 PDF objects out of 1000 (max. 8388607)
- 88 compressed objects within 1 object stream
- 16 named destinations out of 1000 (max. 500000)
- 20581 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 107 PDF objects out of 1000 (max. 8388607)
+ 94 compressed objects within 1 object stream
+ 17 named destinations out of 1000 (max. 500000)
+ 20589 words of extra memory for PDF output out of 20736 (max. 10000000)
 
