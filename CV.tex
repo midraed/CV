@@ -1,82 +1,132 @@
-\documentclass[10pt]{article}
-\usepackage{array, xcolor, lipsum, bibentry}
-\usepackage[margin=3cm]{geometry}
-\usepackage[utf8]{inputenc}
-\usepackage[spanish]{babel} %sudo apt-get install texlive-lang-spanish 
-\usepackage[utf8]{inputenc}
-\usepackage{natbib}
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
 
-\title{\bfseries Guillermo Federico Olmedo}
-\author{}
-\date{}
- 
-\definecolor{lightgray}{gray}{0.8}
-\newcolumntype{L}{>{\raggedleft}p{0.14\textwidth}}
-\newcolumntype{R}{p{0.8\textwidth}}
-\newcommand\VRule{\color{lightgray}\vrule width 0.5pt}
+% % % Requiere texlive-bibtex-extra
 
- 
+
+\documentclass[11pt,a4paper,sans]{moderncv}        
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{green}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage[utf8]{inputenc}                     
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Guillermo}{Olmedo}
+\address{San Martín 3853}{Luján de Cuyo, M5507EVY}{Mendoza, Argentina}
+\phone[mobile]{+54~(261)~677~9074}                  
+\phone[fixed]{+54~(261)~496~3020 \textit{ext} 252}
+\email{olmedo.guillermo@inta.gob.ar}
+\social[github]{midraed}                              % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+\usepackage{multibib}
+\newcites{book,proceed}{{Books},{Trabajos en congresos, simposios y seminarios}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
 \begin{document}
-\maketitle
-\vspace{1em}
-\begin{minipage}[ht]{0.48\textwidth}
-\textbf{Personal}\\
-Rondeau 421\\
-Ciudad, M5500CCI\\
-Mendoza, Argentina\\
-+54 261 6779074\\
-\textit{guillermo.olmedo@gmail.com}
-\end{minipage}
-\begin{minipage}[ht]{0.48\textwidth}
-\textbf{Laboral}\\
-San Martín 3853\\
-Luján de Cuyo, M5507EVY\\
-Mendoza, Argentina\\
-+54 261 4963020 (ext 252)\\
-\textit{olmedo.guillermo@inta.gob.ar}
-\end{minipage}
-\vspace{20pt}
- 
- \section*{Educación}
- \begin{tabular}{L!{\VRule}R}
- 2014 a la fecha&{Estudiante de PhD en: \textit{Estimación de la evapotranspiración real de vid a diferentes escalas mediante modelos matemáticos y sensores remotos}, Universidad Nacional de Cuyo}\\[5pt]
- 2001--2008&Ingeniero Agrónomo, Universidad Nacional de Cuyo, Argentina\\
- \end{tabular} 
- 
-  
-\section*{Experiencia en Investigación}
-\begin{tabular}{L!{\VRule}R}
-2012 a la&{\bf Investigador}, Instituto Nacional de Tecnología Agropecuaria\\
-fecha& Área de Recursos Naturales, EEA Mendoza\\
-& Coordinador Técnico de Módulo: \textit{Mapeo Digital de Suelos}. Programa Nacional de Suelos (2014--2016)\\\multicolumn{2}{c}{}\\
-2009--2012&{\bf Becario de Prácticas Profesionales}, Instituto Nacional de Tecnología Agropecuaria\\
-& Área de Recursos Naturales, EEA Mendoza\\
-& Proyecto Nacional: 
-\end{tabular}
- 
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
 
- 
-\section*{Idiomas}
-\begin{tabular}{L!{\VRule}R}
-Klingon&Mother tongue\\
-{\bf English}&{\bf Fluent}\\
-French&Fluent (DELF 2010)\\
-Japanese&Fair\\
-\end{tabular}
- 
-\bibliographystyle{plain}
-\bibliography{publicaciones}
+\section{Educación}
+\cventry{2001--2008}{Ingeniero Agrónomo}{Universidad Nacional de Cuyo}{Mendoza, Argentina}{\textit{}}{}  % arguments 3 to 6 can be left empty
+\cventry{1995--2000}{Bachiller Agrotécnico y Enólogo}{Liceo Agrícola y Enológico}{Mendoza, Argentina}{\textit{}}{}
+
+\section{Formación de posgrado}
+\cvitem{Título}{\emph{Doctorado en Agronomía} en curso}
+\cvitem{Comité}{S. Ortega Farías \textit{Ph.D.}; R. Vallone \textit{M.Sc.}; H. Vila \textit{Ph.D}.; M. Balzarini \textit{Ph.D.}}
+\cvitem{Tema}{Estimación de la evapotranspiración real de vid a diferentes escalas mediante modelos matemáticos y sensores remotos.}
+
+\section{Experiencia}
+\subsection{Gestión}
+\cventry{2014--2016}{Coordinador Técnico de Módulo}{Programa Nacional de Suelos}{INTA}{}{Proyecto Nacional de bases y nuevas herramientas para la cartografía de suelos.\newline{}%
+Objetivos Específicos:%
+\begin{itemize}%
+\item Proveer nueva información cartográfica de suelos en distintas regiones del país y que constituya una base para el desarrollo territorial y el estudio de procesos vinculados al recurso;
+  \begin{itemize}%
+  \item Ajustar metodologías de MDS para elaborar mapas de suelos y variables edáficas;
+  \item Capacitar a los profesionales y técnicos en diferentes temáticas necesarias para el Relevamiento y Cartografía de Suelos;
+  \end{itemize}
+\end{itemize}}
+\cventry{2014--2016}{Presidente}{Comisión Científica de Geografía de Suelos}{Asociación Argentina de la Ciencia de Suelos}{}{}
+\subsection{Investigación}
+\cventry{2012  a la fecha}{Investigador}{Instituto Nacional de Tecnología Agropecuaria}{EEA Mendoza}{}{\newline
+Proyectos Cartera 2013:
+\begin{itemize}
+\item PRET Atención a las problemáticas de los nuevos modelos productivos del Valle de Uco.
+\item PE Bases conceptuales y nuevas herramientas para la cartografía de suelos.
+\item PRET Desarrollo territorial del oasis norte de Mendoza.
+\item PE Gestión del agua y el riego para el desarrollo sostenible de los territorios.
+\item I Gestión integral de la información de suelos para la planificación y uso sostenible del recurso.
+\item PE Herramientas metodológicas para la gestión de la información de suelos y la evaluación de tierras.
+\item PE Necesidades de agua de los cultivos y estrategias de riego.
+\item PE Soporte técnico y capacitación en procesos de ordenamiento territorial rural.
+\item PE Tecnología de riego para diferentes sistemas productivos.
+\end{itemize}    
+Carteras Anteriores:
+\begin{itemize}
+\item PE Aplicación de métodos para el ordenamiento territorial rural
+\item PR Apoyo al desarrollo vitivinícola regional
+\item PR Apoyo para mejorar el uso y gestión de los recursos naturales y el ordenamiento del territorio rural.
+\item PE Cartografía Digital de Suelos: Implementación y Validación de nuevas tecnologías para el relevamiento de suelos
+\item PE Desarrollo de tecnologías para la optimización del riego
+\item PE Dinámica de la cobertura y uso de las tierras
+\end{itemize}}
+\subsection{Docencia}
+\cventry{2012  a la fecha}{Investigador}{Instituto Nacional de Tecnología Agropecuaria}{EEA Mendoza}{}{}
+\cventry{2012  a la fecha}{Investigador}{Instituto Nacional de Tecnología Agropecuaria}{EEA Mendoza}{}{}
+\cventry{2012  a la fecha}{Investigador}{Instituto Nacional de Tecnología Agropecuaria}{EEA Mendoza}{}{}
+\section{Languages}
+\cvitemwithcomment{Language 1}{Skill level}{Comment}
+\cvitemwithcomment{Language 2}{Skill level}{Comment}
+\cvitemwithcomment{Language 3}{Skill level}{Comment}
+
+\section{Computer skills}
+\cvdoubleitem{category 1}{XXX, YYY, ZZZ}{category 4}{XXX, YYY, ZZZ}
+\cvdoubleitem{category 2}{XXX, YYY, ZZZ}{category 5}{XXX, YYY, ZZZ}
+\cvdoubleitem{category 3}{XXX, YYY, ZZZ}{category 6}{XXX, YYY, ZZZ}
+
+\section{Interests}
+\cvitem{hobby 1}{Description}
+\cvitem{hobby 2}{Description}
+\cvitem{hobby 3}{Description}
+
+\section{Extra 1}
+\cvlistitem{Item 1}
+\cvlistitem{Item 2}
+\cvlistitem{Item 3. This item is particularly long and therefore normally spans over several lines. Did you notice the indentation when the line wraps?}
+
+\section{Extra 2}
+\cvlistdoubleitem{Item 1}{Item 4}
+\cvlistdoubleitem{Item 2}{Item 5}
+\cvlistdoubleitem{Item 3}{Item 6. Like item 3 in the single column list before, this item is particularly long to wrap over several lines.}
 
 
- 
-\section*{Publicaciones}
-\begin{tabular}{L!{\VRule}R}
-2006&\bibentry{}\\[5pt]
-1986&\bibentry{}\\
-\end{tabular}
+
+\section{Publications}
+\nocitebook{book1,book2}
+\bibliographystylebook{plain}
+\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+\nociteproceed{misc1,misc2,misc3}
+\bibliographystyleproceed{plain}
+\bibliographyproceed{publications}                   % 'publications' is the name of a BibTeX file
+
+\end{document}
 
 
-{\vspace{20pt}\newline\newline
-\vspace{20pt}
-\scriptsize\hfill {Última actualización: \today}
- \end{document}
+%% end of file `template.tex'.
