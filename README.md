@@ -1,4 +1,0 @@
-CV
-==
-
-My personal CV
