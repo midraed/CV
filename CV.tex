@@ -22,13 +22,13 @@
 %\photo[64pt][0.4pt]{picture} % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
 % to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
 \makeatletter
-\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
 \makeatother
 %\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
 % bibliography with mutiple entries
 \usepackage{multibib}  % Hay que correr bibtex sobre el aux de cada grupo a mano!!
 %\newcites{book,misc}{{Books},{Others}}
-\newcites{inwork, book, conferences, others}{{articulos aceptados, por publicar},{Books},{Trabajos en congresos, simposios y seminarios}, {Informes Tecnicos, Publicaciones no seriadas}}
+\newcites{inwork,book,conferences,others}{{Árticulos con referato aceptados},{Libros, Capítulos de libros},{Trabajos en congresos, simposios y seminarios}, {Informes Tecnicos, Publicaciones no seriadas}}
 %\newcites{book}{putobibtex}
 %----------------------------------------------------------------------------------
 % content
@@ -59,7 +59,7 @@ Objetivos Específicos:%
 \end{itemize}}
 \cventry{2014--2016}{Presidente}{Comisión Científica de Geografía de Suelos}{Asociación Argentina de la Ciencia de Suelos}{}{Organización Conferencia: \textit{Ph.D.} Alfred Zinck. Tema: Suelos, Información, Sociedad.\\ Facultad de Agronomía. UBA.}
 \subsection{Investigación}
-\cventry{2012  a la fecha}{Investigador}{Instituto Nacional de Tecnología Agropecuaria}{EEA Mendoza}{}{\newline
+\cventry{2012  a la fecha}{Investigador}{Instituto Nacional de Tecnología Agropecuaria}{EEA Mendoza}{}{\newline{}
 Proyectos Cartera 2013--2019:
 \begin{itemize}
 \item PRET Atención a las problemáticas de los nuevos modelos productivos del Valle de Uco.
@@ -78,7 +78,7 @@ Carteras Anteriores:
 \item PR Apoyo al desarrollo vitivinícola regional
 \item PR Apoyo para mejorar el uso y gestión de los recursos naturales y el ordenamiento del territorio rural.
 \item PE Cartografía Digital de Suelos: Implementación y Validación de nuevas tecnologías para el relevamiento de suelos
-\item PE Desarrollo de tecnologías para la optimización del riego
+	\item PE Desarrollo de tecnologías para la optimización del riego
 \item PE Dinámica de la cobertura y uso de las tierras\end{itemize}}
 \cventry{2009--2012}{Becario de prácticas profesionales}{Instituto Nacional de Tecnología Agropecuaria}{EEA Mendoza}{}{Teledetección aplicada al relevamiento de los Recursos Naturales - Laboratorio de Geomática.}
 \cventry{2008--2009}{Becario Alumno}{Instituto Nacional de Tecnología Agropecuaria}{EEA Mendoza}{}{Apoyo para mejorar el uso y gestión de los Recursos Naturales}
@@ -108,7 +108,6 @@ Técnicas geoespaciales para el mapeo de variables edáficas y de cultivo. Módu
 \nociteinwork{Bedendo2015}
 \bibliographystyleinwork{plain}
 \bibliographyinwork{inwork}                   % 'publications' is the name of a BibTeX file
-
 \nocitebook{Gardi2014, Olmedo2014}
 \bibliographystylebook{plain}
 \bibliographybook{inbooks}                   % 'publications' is the name of a BibTeX file
@@ -116,24 +115,17 @@ Técnicas geoespaciales para el mapeo de variables edáficas y de cultivo. Módu
 \nociteconferences{Vila2007,Vallone2008,Olmedo2009a,Vallone2010,Vallone2011,Olmedo2011,Vallone2011a,Olmedo2012,Olmedo2012a,Maffei2012,Olmedo2013,MansillaBaca2013,Olmedo2014,Vallone}
 \bibliographystyleconferences{plain}
 \bibliographyconferences{conferences}                   % 'publications' is the name of a BibTeX file
-
 \nociteothers{Olmedo2009, Villagra2010, Olmedo2010, Vallone2014}
 \bibliographystyleothers{plain}
 \bibliographyothers{others}                   % 'publications' is the name of a BibTeX file
-
-
-
-
 \section{Revisión de trabajos}
 \cvitemwithcomment{2014}{Revista Argentina de la Ciencia del Suelo}{Asociación Argentina de la Ciencia de Suelo}
 \cvitemwithcomment{2014}{Agrociencia}{Facultad de Agronomía de la Universidad de la República; Instituto Nacional de Investigación Agropecuaria, Uruguay.}
-
 \section{Idiomas}
 \cvitem{Español}{lengua nativa}
 \cvitem{Inglés}{Intermediate Listener and Speaker, Advanced Reading and Writing}
 \section{Intereses}
 \cvitem{Suelos}{Cartografía, Génesis, Clasificación}
-
 \section{Dirección de Recursos Humanos}
 \subsection{Trabajos de Tesis}
 \cventry{2013}{Asesor}{Leandro Javier Cara}{Tesis para optar al título de Lic. en Geología}{}{Tema: Análisis Geomorfológico Digital del Valle Intermontano del Departamento de Tupungato Provincia de Mendoza.}
