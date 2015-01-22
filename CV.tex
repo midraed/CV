@@ -1,6 +1,43 @@
-
-
-
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+% % % Requiere texlive-bibtex-extra
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{classic} % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{green}
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm} % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm} % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+% personal data
+\name{Guillermo}{Olmedo}
+%\address{San Martín 3853}{Luján de Cuyo, M5507EVY}{Mendoza, Argentina}
+\phone[mobile]{+54~(261)~677~9074}
+\phone[fixed]{+54~(261)~496~3020 \textit{ext} 252}
+\email{olmedo.guillermo@inta.gob.ar}
+\social[github]{midraed} % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture} % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+% bibliography with mutiple entries
+\usepackage{multibib}  % Hay que correr bibtex sobre el aux de cada grupo a mano!!
+%\newcites{book,misc}{{Books},{Others}}
+\newcites{inwork, book, conferences, others}{{articulos aceptados, por publicar},{Books},{Trabajos en congresos, simposios y seminarios}, {Informes Tecnicos, Publicaciones no seriadas}}
+%\newcites{book}{putobibtex}
+%----------------------------------------------------------------------------------
+% content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn} % to typeset your resume in Chinese using CJK
+%----- resume ---------------------------------------------------------
+\makecvtitle
+\section{Educación}
 \cventry{2001--2008}{Ingeniero Agrónomo}{Universidad Nacional de Cuyo}{Mendoza, Argentina}{\textit{}}{}  % arguments 3 to 6 can be left empty
 \cventry{1995--2000}{Bachiller Agrotécnico y Enólogo}{Liceo Agrícola y Enológico}{Mendoza, Argentina}{\textit{}}{}
 
@@ -67,12 +104,22 @@ Técnicas geoespaciales para el mapeo de variables edáficas y de cultivo. Módu
 \section{Afiliaciones}
 \cvitem{Socio}{Asociación Argentina de la Ciencia de Suelos}
 \cvitem{Miembro}{Open Source Geospatial Foundation}
-\section{Publicaciones}
+\section{Publicaciones} %papersinwork, book, conferences, others
+\nociteinwork{Bedendo2015}
+\bibliographystyleinwork{plain}
+\bibliographyinwork{inwork}                   % 'publications' is the name of a BibTeX file
 
+\nocitebook{Gardi2014, Olmedo2014}
+\bibliographystylebook{plain}
+\bibliographybook{inbooks}                   % 'publications' is the name of a BibTeX file
 
-% Publications from a BibTeX file using the multibib package
+\nociteconferences{Vila2007,Vallone2008,Olmedo2009a,Vallone2010,Vallone2011,Olmedo2011,Vallone2011a,Olmedo2012,Olmedo2012a,Maffei2012,Olmedo2013,MansillaBaca2013,Olmedo2014,Vallone}
+\bibliographystyleconferences{plain}
+\bibliographyconferences{conferences}                   % 'publications' is the name of a BibTeX file
 
-
+\nociteothers{Olmedo2009, Villagra2010, Olmedo2010, Vallone2014}
+\bibliographystyleothers{plain}
+\bibliographyothers{others}                   % 'publications' is the name of a BibTeX file
 
 
 
