@@ -1,48 +1,49 @@
-This is BibTeX, Version 0.99d (TeX Live 2014/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2014/Arch Linux)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: inwork.aux
 The style file: abbrv.bst
 Database file #1: inwork.bib
+Warning--empty note in Angueira2015
 Warning--empty note in Bedendo2015
-You've used 1 entry,
+You've used 2 entries,
             2118 wiz_defined-function locations,
-            502 strings with 3974 characters,
-and the built_in function-call counts, 417 in all, are:
-= -- 33
-> -- 43
+            507 strings with 4180 characters,
+and the built_in function-call counts, 752 in all, are:
+= -- 62
+> -- 76
 < -- 0
-+ -- 17
-- -- 16
-* -- 39
-:= -- 87
-add.period$ -- 3
-call.type$ -- 1
-change.case$ -- 11
++ -- 30
+- -- 28
+* -- 68
+:= -- 153
+add.period$ -- 6
+call.type$ -- 2
+change.case$ -- 20
 chr.to.int$ -- 0
-cite$ -- 2
-duplicate$ -- 6
-empty$ -- 12
-format.name$ -- 16
-if$ -- 70
+cite$ -- 4
+duplicate$ -- 12
+empty$ -- 23
+format.name$ -- 28
+if$ -- 129
 int.to.chr$ -- 0
-int.to.str$ -- 1
+int.to.str$ -- 2
 missing$ -- 0
-newline$ -- 8
-num.names$ -- 2
-pop$ -- 9
+newline$ -- 13
+num.names$ -- 4
+pop$ -- 16
 preamble$ -- 1
-purify$ -- 10
+purify$ -- 18
 quote$ -- 0
-skip$ -- 5
+skip$ -- 10
 stack$ -- 0
-substring$ -- 5
+substring$ -- 10
 swap$ -- 0
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 4
-warning$ -- 1
-while$ -- 2
-width$ -- 2
-write$ -- 11
-(There was 1 warning)
+type$ -- 8
+warning$ -- 2
+while$ -- 4
+width$ -- 3
+write$ -- 20
+(There were 2 warnings)
