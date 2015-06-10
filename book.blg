@@ -1,13 +1,13 @@
 This is BibTeX, Version 0.99d (TeX Live 2014/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: book.aux
-The style file: plain.bst
+The style file: abbrv.bst
 Database file #1: inbooks.bib
 Warning--can't use both author and editor fields in Gardi2014
 Warning--empty publisher in Olmedo2014
 You've used 2 entries,
             2118 wiz_defined-function locations,
-            511 strings with 5030 characters,
+            511 strings with 4746 characters,
 and the built_in function-call counts, 1213 in all, are:
 = -- 105
 > -- 101

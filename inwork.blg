@@ -1,12 +1,12 @@
 This is BibTeX, Version 0.99d (TeX Live 2014/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: inwork.aux
-The style file: plain.bst
+The style file: abbrv.bst
 Database file #1: inwork.bib
 Warning--empty note in Bedendo2015
 You've used 1 entry,
             2118 wiz_defined-function locations,
-            502 strings with 4258 characters,
+            502 strings with 3974 characters,
 and the built_in function-call counts, 417 in all, are:
 = -- 33
 > -- 43
