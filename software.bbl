@@ -1,5 +1,11 @@
 \begin{thebibliography}{1}
 
+\bibitem{Olmedo2016geostat}
+G.~F. Olmedo and M.~Angelini.
+\newblock {\em QGIS-R-Geostatistics. R scripts for geostatistical analysis in
+  QGIS}, 2016.
+\newblock version 1.0.
+
 \bibitem{Olmedo2015}
 G.~F. Olmedo, S.~Ortega-Farias, D.~Fonseca-Luengo, D.~de~la Fuente-Saiz, and
   F.~F. Peñailillo.
