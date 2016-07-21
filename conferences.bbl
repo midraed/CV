@@ -1,37 +1,14 @@
 \begin{thebibliography}{10}
 
 \bibitem{Angueira2016b}
-M.~C. Angueira, G.~Cruzate, E.~M. Zamora, G.~F. Olmedo, J.~M. Sayago,
-  M.~{Sanchez de la Orden}, and I.~{Castillejo Gonz{\'{a}}lez}.
+M~Cristina Angueira, Gustavo Cruzate, E~M Zamora, Guillermo~Federico Olmedo,
+  J~M Sayago, Manuel {Sanchez de la Orden}, and I~{Castillejo Gonz{\'{a}}lez}.
 \newblock {El Uso de T{\'{e}}cnicas de Geom{\'{a}}tica en la
   Geopedolog{\'{i}}a}.
 \newblock In {\em XXV Congreso Argentino de la Ciencia del Suelo}, 2016.
 
-\bibitem{Maffei2012}
-J.~A. Maffei, R.~C. Vallone, M.~Gonz\'{a}lez, G.~F. Olmedo, W.~Haist,
-  E.~Maffei, and L.~Mastrantonio.
-\newblock {Metales Pesados Disponibles y Totales en Suelos Irrigados del
-  R\'{\i}o Mendoza}.
-\newblock In {\em XIX Congreso Latinoamericano de la Ciencia del Suelo. XXIII
-  Congreso Argentino de la Ciencia del Suelo}, Mar del Plata, Argentina, 2012.
-
-\bibitem{MansillaBaca2013}
-J.~F. {Mansilla Baca}, M.~{Mendon\c{c}a Santos Brefin}, G.~M. Vasques, R.~Dart,
-  and G.~F. Olmedo.
-\newblock {Capacita\c{c}\~{a}o em Mapeamento Digital de Solos. Cursos
-  presenciais e \`{a} distancia para t\'{e}cnicos de Latino Am\'{e}rica}.
-\newblock In {\em XXXIV Congresso Brasileiro de Ci\^{e}ncia do Solo},
-  Florianapolis, Brasil, 2013.
-
-\bibitem{Olmedo2012a}
-G.~F. Olmedo, M.~E. Angelini, R.~C. Vallone, and L.~Moretti.
-\newblock {Estimaci\'{o}n de Variables Ed\'{a}ficas en el Oasis Productivo De
-  Tupungato, Mendoza}.
-\newblock In {\em XIX Congreso Latinoamericano de la Ciencia del Suelo. XXIII
-  Congreso Argentino de la Ciencia del Suelo}, Mar del Plata, Argentina, 2012.
-
 \bibitem{Olmedo2016OT}
-G.~F. Olmedo, V.~P. {Navarro Canafoglia}, and M.~Perez.
+Guillermo~Federico Olmedo, V~P {Navarro Canafoglia}, and Mart{\'{i}}n Perez.
 \newblock {Estimaci{\'{o}}n del avance urbano sobre la interfase urbano-rural
   del Oasis Norte de la Provincia de Mendoza. An{\'{a}}lisis temporal y
   espacial.}
@@ -39,97 +16,124 @@ G.~F. Olmedo, V.~P. {Navarro Canafoglia}, and M.~Perez.
   Programa Nacional de Recursos Naturales, Gesti{\'{o}}n Ambiental y
   Ecorregiones}, Buenos Aires, Argentina, 2016.
 
-\bibitem{Olmedo2011}
-G.~F. Olmedo and R.~C. Vallone.
-\newblock {Dise\~{n}o y construcci\'{o}n de un lis\'{\i}metro de pesada para la
-  medici\'{o}n de evapotranspiraci\'{o}n real en vid en Mendoza, Argentina}.
-\newblock In {\em 1er Simposio Argentino de Viticultura y Enolog\'{\i}a},
-  Mendoza, Argentina, 2011.
+\bibitem{Vallone2016}
+Rosana~Celia Vallone and Guillermo~Federico Olmedo.
+\newblock {An{\'{a}}lisis De Pedolog{\'{i}}a Cuantitativa Aplicado A Estudios
+  De Variabilidad Espacial Para La Zonificaci{\'{o}}n De Suelos}.
+\newblock In {\em XXV Congreso Argentino de la Ciencia del Suelo}, R{\'{i}}o
+  Cuarto, Argentina, 2016.
 
 \bibitem{Olmedo2014VP}
-G.~F. Olmedo and R.~C. Vallone.
+Guillermo~Federico Olmedo and Rosana~Celia Vallone.
 \newblock {Caracterizaci\'{o}n de la variabilidad intraparcelaria de suelos
   mediante sensores proximales}.
 \newblock In {\em XXIV Congreso Nacional del la Ciencia del Suelo}, Bah\'{\i}a
   Blanca, Argentina., 2014.
 
-\bibitem{Olmedo2009a}
-G.~F. Olmedo, R.~C. Vallone, and L.~J. Cara.
-\newblock {An\'{a}lisis de la evoluci\'{o}n de la superficie vit\'{\i}cola en
-  el departamento de Luj\'{a}n de Cuyo, Mendoza, argentina en el periodo 1989
-  – 2009 mediante t\'{e}cnicas de teledetecci\'{o}n de media resoluci\'{o}n}.
-\newblock In {\em XII Congreso Latinoamericano de Viticultura y Enolog\'{\i}a},
-  Montevideo, Uruguay, 2009.
+\bibitem{Vasques2014}
+Gustavo Vasques, Ricardo Dart, Jesus Baca~Mansilla, Guillermo~Federico Olmedo,
+  and Maria~Lourdes {Mendon\c{c}a Santos Brefin}.
+\newblock {Treinamento em mapeamento digital de solos: Carbono no Rio de
+  Janeiro, Brasil}.
+\newblock In {\em XX Latin American and XVI Peruvian Congress of Soil Science},
+  Cusco, Peru, 2014.
+
+\bibitem{MansillaBaca2013}
+Jesus~F {Mansilla Baca}, M.L. {Mendon\c{c}a Santos Brefin}, Gustavo~M Vasques,
+  Ricardo Dart, and Guillermo~Federico Olmedo.
+\newblock {Capacita\c{c}\~{a}o em Mapeamento Digital de Solos. Cursos
+  presenciais e \`{a} distancia para t\'{e}cnicos de Latino Am\'{e}rica}.
+\newblock In {\em XXXIV Congresso Brasileiro de Ci\^{e}ncia do Solo},
+  Florianapolis, Brasil, 2013.
+
+\bibitem{Olmedo2013}
+Guillermo~Federico Olmedo, Rosana~Celia Vallone, and Fabi\'{a}n Tozzi.
+\newblock {Dise\~{n}o y construcci\'{o}n de un lis\'{\i}metro de pesada para la
+  medici\'{o}n de la evapotranspiraci\'{o}n real en vid en Mendoza, Argentina}.
+\newblock In {\em XXIV Congreso Nacional del Agua}, San Juan, Argentina, 2013.
+
+\bibitem{Maffei2012}
+Jos\'{e}~A Maffei, Rosana~Celia Vallone, M~Gonz\'{a}lez, Guillermo~Federico
+  Olmedo, Walter Haist, Etel Maffei, and L.~Mastrantonio.
+\newblock {Metales Pesados Disponibles y Totales en Suelos Irrigados del
+  R\'{\i}o Mendoza}.
+\newblock In {\em XIX Congreso Latinoamericano de la Ciencia del Suelo. XXIII
+  Congreso Argentino de la Ciencia del Suelo}, Mar del Plata, Argentina, 2012.
 
 \bibitem{Olmedo2012}
-G.~F. Olmedo, R.~C. Vallone, and F.~Tozzi.
+Guillermo~Federico Olmedo, Rosana~Celia Vallone, and Fabi\'{a}n Tozzi.
 \newblock {Dise\~{n}o y construcci\'{o}n de un lis\'{\i}metro de pesada para la
   medici\'{o}n de la evapotranspiraci\'{o}n real en vid en Mendoza, Argentina}.
 \newblock In {\em VI Jornadas de Riego y Fertirriego}, Mendoza, Argentina,
   2012.
 
-\bibitem{Olmedo2013}
-G.~F. Olmedo, R.~C. Vallone, and F.~Tozzi.
-\newblock {Dise\~{n}o y construcci\'{o}n de un lis\'{\i}metro de pesada para la
-  medici\'{o}n de la evapotranspiraci\'{o}n real en vid en Mendoza, Argentina}.
-\newblock In {\em XXIV Congreso Nacional del Agua}, San Juan, Argentina, 2013.
+\bibitem{Olmedo2012a}
+Guillermo~Federico Olmedo, Marcos~Esteban Angelini, Rosana~Celia Vallone, and
+  Lucas Moretti.
+\newblock {Estimaci\'{o}n de Variables Ed\'{a}ficas en el Oasis Productivo De
+  Tupungato, Mendoza}.
+\newblock In {\em XIX Congreso Latinoamericano de la Ciencia del Suelo. XXIII
+  Congreso Argentino de la Ciencia del Suelo}, Mar del Plata, Argentina, 2012.
 
-\bibitem{Vallone2010}
-R.~C. Vallone and G.~F. Olmedo.
+\bibitem{Olmedo2011}
+Guillermo~Federico Olmedo and Rosana~Celia Vallone.
+\newblock {Dise\~{n}o y construcci\'{o}n de un lis\'{\i}metro de pesada para la
+  medici\'{o}n de evapotranspiraci\'{o}n real en vid en Mendoza, Argentina}.
+\newblock In {\em 1er Simposio Argentino de Viticultura y Enolog\'{\i}a},
+  Mendoza, Argentina, 2011.
+
+\bibitem{Vallone2011}
+Rosana~Celia Vallone, Guillermo~Federico Olmedo, Gustavo Caligiore, and Walter
+  Haist.
+\newblock {Evaluaci\'{o}n del estado nutricional nitrogenado de la vid a
+  trav\'{e}s de mediciones hiperespectrales de reflectancia en el rango VNIR}.
+\newblock In {\em 1er Simposio Argentino de Viticultura y Enolog\'{\i}a},
+  Mendoza, Argentina, 2011.
+
+\bibitem{Vallone2011a}
+Rosana~Celia Vallone and Guillermo~Federico Olmedo.
+\newblock {Uso de sondas de inducci\'{o}n electromagn\'{e}tica para la
+  estimaci\'{o}n de propiedades en suelos \'{a}ridos regad\'{\i}os}.
+\newblock In {\em 2ª Reuni\'{o}n Argentina de Salinidad}, Tucum\'{a}n,
+  Argentina, 2011.
+
+\bibitem{Vallone2010a}
+Rosana~Celia Vallone and Guillermo~Federico Olmedo.
 \newblock {Uso de sondas de inducci\'{o}n electromagn\'{e}tica para la
   estimaci\'{o}n de propiedades en suelos torriflueventes}.
 \newblock In {\em V Jornadas de Riego y Fertirriego}, Mendoza, Argentina, 2010.
 
-\bibitem{Vallone}
-R.~C. Vallone and G.~F. Olmedo.
+\bibitem{Vallone2010b}
+Rosana~Celia Vallone and Guillermo~Federico Olmedo.
 \newblock {Uso de sondas de inducci\'{o}n electromagn\'{e}tica para la
   estimaci\'{o}n de propiedades f\'{\i}sicas del suelo: salinidad, humedad y
   porcentaje de arcilla}.
 \newblock In {\em XXII Congreso Argentino de la Ciencia del Suelo}, Rosario,
   Argentina, 2010.
 
-\bibitem{Vallone2011a}
-R.~C. Vallone and G.~F. Olmedo.
-\newblock {Uso de sondas de inducci\'{o}n electromagn\'{e}tica para la
-  estimaci\'{o}n de propiedades en suelos \'{a}ridos regad\'{\i}os}.
-\newblock In {\em 2ª Reuni\'{o}n Argentina de Salinidad}, Tucum\'{a}n,
-  Argentina, 2011.
-
-\bibitem{Vallone2016}
-R.~C. Vallone and G.~F. Olmedo.
-\newblock {An{\'{a}}lisis De Pedolog{\'{i}}a Cuantitativa Aplicado A Estudios
-  De Variabilidad Espacial Para La Zonificaci{\'{o}}n De Suelos}.
-\newblock In {\em XXV Congreso Argentino de la Ciencia del Suelo}, R{\'{i}}o
-  Cuarto, Argentina, 2016.
-
-\bibitem{Vallone2011}
-R.~C. Vallone, G.~F. Olmedo, G.~Caligiore, and W.~Haist.
-\newblock {Evaluaci\'{o}n del estado nutricional nitrogenado de la vid a
-  trav\'{e}s de mediciones hiperespectrales de reflectancia en el rango VNIR}.
-\newblock In {\em 1er Simposio Argentino de Viticultura y Enolog\'{\i}a},
-  Mendoza, Argentina, 2011.
+\bibitem{Olmedo2009a}
+Guillermo~Federico Olmedo, Rosana~Celia Vallone, and Leandro~Javier Cara.
+\newblock {An\'{a}lisis de la evoluci\'{o}n de la superficie vit\'{\i}cola en
+  el departamento de Luj\'{a}n de Cuyo, Mendoza, argentina en el periodo 1989
+  – 2009 mediante t\'{e}cnicas de teledetecci\'{o}n de media resoluci\'{o}n}.
+\newblock In {\em XII Congreso Latinoamericano de Viticultura y Enolog\'{\i}a},
+  Montevideo, Uruguay, 2009.
 
 \bibitem{Vallone2008}
-R.~C. Vallone, G.~F. Olmedo, L.~J. Cara, J.~Volante, and A.~D. Collado.
+Rosana~Celia Vallone, Guillermo~Federico Olmedo, Leandro~Javier Cara, Jos\'{e}
+  Volante, and Andr\'{e}s~Derlys Collado.
 \newblock {Relevamiento de la cobertura del suelo de la Provincia de Mendoza,
   mendiante sensores remotos}.
 \newblock In {\em XXI Congreso Argentino de la Ciencia del Suelo}, San Luis,
   Argentina, 2008.
 
-\bibitem{Vasques2014}
-G.~Vasques, R.~Dart, J.~Baca~Mansilla, G.~F. Olmedo, and M.~L. {Mendon\c{c}a
-  Santos Brefin}.
-\newblock {Treinamento em mapeamento digital de solos: Carbono no Rio de
-  Janeiro, Brasil}.
-\newblock In {\em XX Latin American and XVI Peruvian Congress of Soil Science},
-  Cusco, Peru, 2014.
-
 \bibitem{Vila2007}
-H.~Vila, J.~{Perez Pe\~{n}a}, M.~Garc\'{\i}a, R.~C. Vallone, L.~Mastrantonio,
-  G.~F. Olmedo, L.~{Rodr\'{\i}guez Plaza}, and C.~Salcedo.
+Hern\'{a}n Vila, Jorge {Perez Pe\~{n}a}, Miguel Garc\'{\i}a, Rosana~Celia
+  Vallone, L.~Mastrantonio, Guillermo~Federico Olmedo, Luis {Rodr\'{\i}guez
+  Plaza}, and Carlos Salcedo.
 \newblock {Estimaci\'{o}n de la biomasa en vi\~{n}edos mediante im\'{a}genes
   satelitales y a\'{e}reas de Mendoza, Argentina}.
-\newblock In Rivas, R.~Grisotto, and A.~Sacido, editors, {\em Congreso
+\newblock In Rivas, R~Grisotto, and A~Sacido, editors, {\em Congreso
   Internacional de la AET. “Teledetecci\'{o}n hacia un mejor entendimiento de
   la din\'{a}mica global y regional”}, page 51 to 58, 2007.
 

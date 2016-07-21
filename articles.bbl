@@ -1,21 +1,20 @@
 \begin{thebibliography}{1}
 
-\bibitem{Angueira2016}
-C.~Angueira, G.~Cruzate, E.~M. Zamora, G.~F. Olmedo, J.~M. Sayago, and
-  I.~{Castillejo Gonz{\'{a}}lez}.
-\newblock {Soil Mapping Based on Landscape Classification in the Semiarid
-  Chaco, Argentina}.
-\newblock In J.~A. Zinck, G.~Metternicht, G.~Bocco, and H.~F. {Del Valle},
-  editors, {\em Geopedology SE - 17}, pages 285--303. Springer International
-  Publishing, 2016.
-
 \bibitem{Bedendo2016}
-D.~J. Bedendo, G.~A. Schulz, G.~F. Olmedo, D.~M. Rodr{\'{\i}}guez, and M.~E.
-  Angelini.
+D~J Bedendo, G~A Schulz, G~F Olmedo, D~M Rodr{\'{\i}}guez, and M~E Angelini.
 \newblock {Updating a Physiography-Based Soil Map Using Digital Soil Mapping
   Techniques}.
-\newblock In J.~A. Zinck, G.~Metternicht, G.~Bocco, and H.~F. {Del Valle},
-  editors, {\em Geopedology SE - 18}, pages 305--319. Springer International
-  Publishing, 2016.
+\newblock In Joseph~Alfred Zinck, Graciela Metternicht, Gerardo Bocco, and
+  H{\'{e}}ctor~Francisco {Del Valle}, editors, {\em Geopedology SE - 18}, pages
+  305--319. Springer International Publishing, 2016.
+
+\bibitem{Angueira2016}
+C~Angueira, G~Cruzate, E~M Zamora, G~F Olmedo, J~M Sayago, and I~{Castillejo
+  Gonz{\'{a}}lez}.
+\newblock {Soil Mapping Based on Landscape Classification in the Semiarid
+  Chaco, Argentina}.
+\newblock In Joseph~Alfred Zinck, Graciela Metternicht, Gerardo Bocco, and
+  H{\'{e}}ctor~Francisco {Del Valle}, editors, {\em Geopedology SE - 17}, pages
+  285--303. Springer International Publishing, 2016.
 
 \end{thebibliography}

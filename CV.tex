@@ -28,7 +28,7 @@
 %\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
 % bibliography with mutiple entries
 \usepackage{multibib}  % Hay que correr bibtex sobre el aux de cada grupo a mano!!
-\newcites{articles,inwork,book,conferences,others,software}{{Árticulos con referato},{Árticulos con referato aceptados},{Libros, Capítulos de libros},{Trabajos en congresos, simposios y seminarios}, {Informes Tecnicos, Publicaciones no seriadas},{Software}}
+\newcites{articles,inwork,book,conferences,others,software}{{Árticulos con referato},{Árticulos con referato aceptados},{Libros, Capítulos de libros},{Trabajos en congresos, simposios y seminarios}, {Informes Tecnicos, Publicaciones no seriadas},{Software and Software Manuals}}
 %----------------------------------------------------------------------------------
 % content
 %----------------------------------------------------------------------------------
@@ -118,22 +118,22 @@ recursos naturales (suelo, agua, planta). \textit{8 horas en el ciclo 2014}}
 Técnicas geoespaciales para el mapeo de variables edáficas y de cultivo. Módulo: Suelos y Riego. \textit{5 horas. Ciclo 2009}}
 \section{Publicaciones} %papersinwork, book, conferences, others
 \nocitearticles{Bedendo2016, Angueira2016}
-\bibliographystylearticles{abbrv}
+\bibliographystylearticles{unsrt}
 \bibliographyarticles{articles}                   % 'publications' is the name of a BibTeX file
 %\nociteinwork{Bedendo2015, Angueira2015}
 %\bibliographystyleinwork{abbrv}
 %\bibliographyinwork{inwork}                   % 'publications' is the name of a BibTeX file
 \nocitebook{Gardi2014, Olmedo2014}
-\bibliographystylebook{abbrv}
+\bibliographystylebook{unsrt}
 \bibliographybook{inbooks}                   % 'publications' is the name of a BibTeX file
-\nocitesoftware{Olmedo2015, Olmedo2016geostat}
-\bibliographystylesoftware{abbrv}
+\nocitesoftware{Olmedo2016geostat, Olmedo2015, OlmedoVig12015, OlmedoVig22015}
+\bibliographystylesoftware{unsrt}
 \bibliographysoftware{software} 
-\nociteconferences{Vasques2014, Vila2007,Vallone2008,Olmedo2009a,Vallone2010,Vallone2011,Olmedo2011,Vallone2011a,Olmedo2012,Olmedo2012a,Maffei2012,Olmedo2013,MansillaBaca2013,Olmedo2014VP,Vallone, Vallone2016, Angueira2016b, Olmedo2016OT}
-\bibliographystyleconferences{abbrv}
+\nociteconferences{Angueira2016b, Olmedo2016OT, Vallone2016, Olmedo2014VP, Vasques2014, MansillaBaca2013, Olmedo2013, Maffei2012, Olmedo2012,Olmedo2012a, Olmedo2011, Vallone2011,Vallone2011a, Vallone2010a, Vallone2010b, Olmedo2009a,Vallone2008, Vila2007}
+\bibliographystyleconferences{unsrt}
 \bibliographyconferences{conferences}                   % 'publications' is the name of a BibTeX file
-\nociteothers{Olmedo2009, Villagra2010, Olmedo2010, Vallone2014}
-\bibliographystyleothers{abbrv}
+\nociteothers{Vallone2014, Villagra2010, Olmedo2010, Olmedo2009}
+\bibliographystyleothers{unsrt}
 \bibliographyothers{others}                   % 'publications' is the name of a BibTeX file
 \section{Becas y premios}
 \cventry{2008--2009}{Beca para estudiantes}{INTA EEA Mendoza}{Mendoza, Argentina}{}{Tema: Apoyo para mejorar el uso y gestión de los recursos naturales}

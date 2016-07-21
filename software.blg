@@ -1,46 +1,46 @@
 This is BibTeX, Version 0.99d (TeX Live 2015/Arch Linux)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: software.aux
-The style file: abbrv.bst
+The style file: unsrt.bst
 Database file #1: software.bib
-You've used 2 entries,
-            2118 wiz_defined-function locations,
-            508 strings with 4109 characters,
-and the built_in function-call counts, 579 in all, are:
-= -- 50
+You've used 4 entries,
+            1791 wiz_defined-function locations,
+            464 strings with 4223 characters,
+and the built_in function-call counts, 629 in all, are:
+= -- 44
 > -- 41
 < -- 0
-+ -- 16
-- -- 14
-* -- 39
-:= -- 109
-add.period$ -- 6
-call.type$ -- 2
-change.case$ -- 11
++ -- 15
+- -- 11
+* -- 25
+:= -- 108
+add.period$ -- 12
+call.type$ -- 4
+change.case$ -- 2
 chr.to.int$ -- 0
-cite$ -- 2
-duplicate$ -- 18
-empty$ -- 37
-format.name$ -- 14
-if$ -- 110
+cite$ -- 4
+duplicate$ -- 24
+empty$ -- 67
+format.name$ -- 11
+if$ -- 137
 int.to.chr$ -- 0
-int.to.str$ -- 2
+int.to.str$ -- 4
 missing$ -- 0
-newline$ -- 13
+newline$ -- 23
 num.names$ -- 4
-pop$ -- 13
+pop$ -- 20
 preamble$ -- 1
-purify$ -- 11
+purify$ -- 0
 quote$ -- 0
 skip$ -- 15
 stack$ -- 0
-substring$ -- 10
-swap$ -- 4
+substring$ -- 0
+swap$ -- 6
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 8
+type$ -- 0
 warning$ -- 0
 while$ -- 4
-width$ -- 3
-write$ -- 22
+width$ -- 5
+write$ -- 42
