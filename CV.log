@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2016.12.2)  1 JUN 2017 13:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2016.12.2)  1 JUN 2017 14:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1335,36 +1335,33 @@ Underfull \hbox (badness 5519) in paragraph at lines 92--92
 5 (+20) , \T1/lmss/m/sl/10.95 In-sti-tuto Na-cional de Tec-nología
  []
 
-[2] (./articles.bbl [3]) (./book.bbl) (./software.bbl)
-
-LaTeX Warning: Citation `NazarioRios2017' undefined on input line 133.
-
-(./conferences.bbl [4] [5]
+[2] (./articles.bbl [3]) (./book.bbl) (./software.bbl) (./conferences.bbl
+[4] [5]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 106.
-)
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 121.
+ [6])
 
-LaTeX Warning: Citation `Olmedo17CA' undefined on input line 136.
+LaTeX Warning: Citation `Olmedo17CA' undefined on input line 139.
 
-(./others.bbl [6]) [7] [8] [9]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 177.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 177.
+(./others.bbl) [7] [8] [9]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 180.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 180.
  (./CV.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 177.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 177.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 180.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 180.
 Package rerunfilecheck Info: File `CV.out' has not changed.
-(rerunfilecheck)             Checksum: EB793DF575C03B7004E52DB208E18430;2938.
+(rerunfilecheck)             Checksum: DD94C9E82051C38816561741246D8268;3043.
 
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 29139 strings out of 493013
- 531320 string characters out of 6139317
- 619999 words of memory out of 5000000
- 32086 multiletter control sequences out of 15000+600000
- 73059 words of font info for 108 fonts, out of 8000000 for 9000
+ 29142 strings out of 493013
+ 531373 string characters out of 6139317
+ 620007 words of memory out of 5000000
+ 32088 multiletter control sequences out of 15000+600000
+ 72958 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,13n,60p,10453b,776s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf-dist/fo
@@ -1373,10 +1370,10 @@ s12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/share/tex
 mf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf-dist/fonts/type1/p
 ublic/lm/lmsso10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsso8.pfb></
 usr/share/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on CV.pdf (9 pages, 173208 bytes).
+Output written on CV.pdf (9 pages, 174068 bytes).
 PDF statistics:
- 209 PDF objects out of 1000 (max. 8388607)
- 189 compressed objects within 2 object streams
- 63 named destinations out of 1000 (max. 500000)
- 21677 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 215 PDF objects out of 1000 (max. 8388607)
+ 195 compressed objects within 2 object streams
+ 66 named destinations out of 1000 (max. 500000)
+ 21685 words of extra memory for PDF output out of 24883 (max. 10000000)
 
