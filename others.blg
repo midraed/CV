@@ -1,11 +1,12 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Arch Linux)
+This is BibTeX, Version 0.99d (TeX Live 2016/Arch Linux)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: others.aux
 The style file: unsrt.bst
 Database file #1: others.bib
+Warning--I didn't find a database entry for "Olmedo17CA"
 You've used 4 entries,
             1791 wiz_defined-function locations,
-            469 strings with 5116 characters,
+            471 strings with 5136 characters,
 and the built_in function-call counts, 1066 in all, are:
 = -- 75
 > -- 100
@@ -44,3 +45,4 @@ warning$ -- 0
 while$ -- 7
 width$ -- 5
 write$ -- 47
+(There was 1 warning)

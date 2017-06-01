@@ -1,5 +1,20 @@
 \begin{thebibliography}{1}
 
+\bibitem{rs9030268}
+Carlos Poblete-echeverr{\'{i}}a, Guillermo~Federico Olmedo, and Benjamin
+  Ingram.
+\newblock {Detection and Segmentation of Vine Canopy in Very High-Resolution
+  RGB Imagery obtained from Unmanned Aerial Vehicle ( UAV ): A Case study in a
+  Commercial Vineyard .}
+\newblock {\em Remote Sensing}, 9(3):1--13, 2017.
+
+\bibitem{Olmedo2016}
+Guillermo~Federico Olmedo, Samuel Ortega-Far{\'{i}}as, Daniel {De la
+  Fuente-S{\'{a}}iz}, David Fonseca, and Fernando Fuentes-Pe{\~{n}}ailillo.
+\newblock {water : Tools and Functions to Estimate Actual Evapotranspiration
+  Using Land Surface Energy Balance Models in R}.
+\newblock {\em The R Journal}, 8(2):352--369, 2016.
+
 \bibitem{Bedendo2016}
 D~J Bedendo, G~A Schulz, G~F Olmedo, D~M Rodr{\'{\i}}guez, and M~E Angelini.
 \newblock {Updating a Physiography-Based Soil Map Using Digital Soil Mapping
