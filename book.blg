@@ -1,49 +1,50 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Arch Linux)
+This is BibTeX, Version 0.99d (TeX Live 2016/Arch Linux)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: book.aux
 The style file: unsrt.bst
-Database file #1: inbooks.bib
+Database file #1: book.bib
+Warning--can't use both author and editor fields in cookbook2017
 Warning--can't use both author and editor fields in Gardi2014
 Warning--empty publisher in Olmedo2014
-You've used 2 entries,
+You've used 3 entries,
             1791 wiz_defined-function locations,
-            459 strings with 4555 characters,
-and the built_in function-call counts, 763 in all, are:
-= -- 55
-> -- 61
+            465 strings with 4870 characters,
+and the built_in function-call counts, 1036 in all, are:
+= -- 68
+> -- 93
 < -- 1
-+ -- 21
-- -- 19
-* -- 55
-:= -- 122
-add.period$ -- 7
-call.type$ -- 2
++ -- 32
+- -- 29
+* -- 80
+:= -- 172
+add.period$ -- 10
+call.type$ -- 3
 change.case$ -- 1
 chr.to.int$ -- 0
-cite$ -- 4
-duplicate$ -- 40
-empty$ -- 54
-format.name$ -- 19
-if$ -- 172
+cite$ -- 6
+duplicate$ -- 50
+empty$ -- 73
+format.name$ -- 29
+if$ -- 227
 int.to.chr$ -- 0
-int.to.str$ -- 2
-missing$ -- 3
-newline$ -- 13
-num.names$ -- 2
-pop$ -- 13
+int.to.str$ -- 3
+missing$ -- 5
+newline$ -- 18
+num.names$ -- 3
+pop$ -- 19
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 27
+skip$ -- 29
 stack$ -- 0
 substring$ -- 16
-swap$ -- 20
+swap$ -- 22
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 2
-while$ -- 3
-width$ -- 3
-write$ -- 24
-(There were 2 warnings)
+warning$ -- 3
+while$ -- 4
+width$ -- 4
+write$ -- 34
+(There were 3 warnings)
