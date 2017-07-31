@@ -3,48 +3,49 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: book.aux
 The style file: unsrt.bst
 Database file #1: book.bib
+Warning--empty publisher in Vallone2017
 Warning--can't use both author and editor fields in cookbook2017
 Warning--can't use both author and editor fields in Gardi2014
 Warning--empty publisher in Olmedo2014
-You've used 3 entries,
+You've used 4 entries,
             1791 wiz_defined-function locations,
-            465 strings with 4870 characters,
-and the built_in function-call counts, 1036 in all, are:
-= -- 68
-> -- 93
-< -- 1
-+ -- 32
-- -- 29
-* -- 80
-:= -- 172
-add.period$ -- 10
-call.type$ -- 3
-change.case$ -- 1
+            472 strings with 5142 characters,
+and the built_in function-call counts, 1359 in all, are:
+= -- 92
+> -- 115
+< -- 2
++ -- 39
+- -- 35
+* -- 102
+:= -- 223
+add.period$ -- 14
+call.type$ -- 4
+change.case$ -- 2
 chr.to.int$ -- 0
-cite$ -- 6
-duplicate$ -- 50
-empty$ -- 73
-format.name$ -- 29
-if$ -- 227
+cite$ -- 8
+duplicate$ -- 68
+empty$ -- 102
+format.name$ -- 35
+if$ -- 303
 int.to.chr$ -- 0
-int.to.str$ -- 3
-missing$ -- 5
-newline$ -- 18
-num.names$ -- 3
-pop$ -- 19
+int.to.str$ -- 4
+missing$ -- 6
+newline$ -- 23
+num.names$ -- 6
+pop$ -- 27
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 29
+skip$ -- 37
 stack$ -- 0
-substring$ -- 16
-swap$ -- 22
-text.length$ -- 1
+substring$ -- 20
+swap$ -- 28
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 3
-while$ -- 4
-width$ -- 4
-write$ -- 34
-(There were 3 warnings)
+warning$ -- 4
+while$ -- 7
+width$ -- 5
+write$ -- 45
+(There were 4 warnings)
