@@ -1,8 +1,34 @@
 \begin{thebibliography}{10}
 
+\bibitem{Olmedo2018}
+Guillermo~Federico Olmedo, Marcos~E. Angelini, Dar{\'{i}}o Rodr{\'{i}}guez, and
+  Mauricio Pasquier.
+\newblock {SISINTA: the Argentinian soil information system}.
+\newblock In {\em 21 World Congress of Soil Science}, Rio de Janeiro, Brazil,
+  2018.
+
+\bibitem{Olmedo2018a}
+Guillermo~Federico Olmedo, Carla Pascale, Mario Guevara, Mart{\'{i}}n
+  Dell'Acqua, Arnulfo~Encina Rojas, Hern{\'{a}}n~Figueredo Ticona,
+  Ver{\'{o}}nica Loayza, Guillermo~Andr{\'{e}}s Schulz, Gustavo~M Vasques, and
+  Ronald~R Vargas.
+\newblock {Towards a regional soil information system for South America:
+  building the South American soil organic carbon map}.
+\newblock In {\em 21 World Congress of Soil Science}, Rio de Janeiro, Brazil,
+  2018.
+
+\bibitem{NazarioRios2018}
+Julio~C{\'{e}}sar {Nazario R{\'{i}}os}, Carlos~Jul{\'{i}}an {Mestanza Novoa},
+  Guillermo~Federico Olmedo, and Domingo~Marcelo {Portuguez Maurtua}.
+\newblock {Soil pH spatial distribution with digital soil mapping (DSM) in
+  central Andes of Peru}.
+\newblock In {\em 21 World Congress of Soil Science}, Rio de Janeiro, Brazil,
+  2018.
+
 \bibitem{AngueiraWCCA}
-M~Cristina Angueira, Gustavo Cruzate, E~M Zamora, Guillermo~Federico Olmedo,
-  J~M Sayago, Manuel {Sanchez de la Orden}, and I~{Castillejo Gonz{\'{a}}lez}.
+M~Cristina Angueira, Gustavo Cruzate, E~M Zamora, \textbf{Olmedo, Guillermo
+  Federico}, J~M Sayago, Manuel {Sanchez de la Orden}, and I~{Castillejo
+  Gonz{\'{a}}lez}.
 \newblock {C{\'{o}}mo abordar los desaf{\'{i}}os de la falta de datos de suelo
   y cartograf{\'{i}}a, un caso en Santiago del Estero, Argentina.}
 \newblock In {\em 7th World Congress on Conservation Agriculture - XXV Congreso
@@ -14,6 +40,16 @@ Julio~C{\'{e}}sar {Nazario R{\'{i}}os}, Guillermo~Federico Olmedo, Carlos
 \newblock {Uso de mapeo digital para evaluar la variabilidad del pH del Suelo}.
 \newblock In Asociaci{\'{o}}n Peruana de la~Ciencia del Suelo, editor, {\em
   Congreso Peruano de la Ciencia del Suelo}, Ayacucho, Per{\'{u}}, 2017.
+
+\bibitem{Olmedo2017}
+Guillermo~Federico Olmedo, Dario~Mart{\'{i}}n Rodriguez, and Marcos~E.
+  Angelini.
+\newblock {Advances in digital soil mapping and soil information systems in
+  Argentina}.
+\newblock In Dominique Arrouays, Igor Savi, Johan Leenaars, and Alex~B.
+  McBratney, editors, {\em GlobalSoilMap - Digital Soil Mapping from Country to
+  Globe: Proceedings of the Global Soil Map 2017}, page 174, Moscow, Russia,
+  2017. CRC Press.
 
 \bibitem{Angueira2017}
 M~Cristina Angueira, Gustavo Cruzate, E~M Zamora, Guillermo~Federico Olmedo,

@@ -1,46 +1,46 @@
-This is BibTeX, Version 0.99d (TeX Live 2016/Arch Linux)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99d (TeX Live 2017/Arch Linux)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: conferences.aux
 The style file: unsrt.bst
 Database file #1: conferences.bib
-You've used 21 entries,
+You've used 25 entries,
             1791 wiz_defined-function locations,
-            566 strings with 9535 characters,
-and the built_in function-call counts, 4706 in all, are:
-= -- 335
-> -- 322
-< -- 1
-+ -- 113
-- -- 92
-* -- 269
-:= -- 789
-add.period$ -- 63
-call.type$ -- 21
-change.case$ -- 21
+            591 strings with 11001 characters,
+and the built_in function-call counts, 5761 in all, are:
+= -- 409
+> -- 407
+< -- 2
++ -- 142
+- -- 117
+* -- 341
+:= -- 968
+add.period$ -- 76
+call.type$ -- 25
+change.case$ -- 25
 chr.to.int$ -- 0
-cite$ -- 21
-duplicate$ -- 269
-empty$ -- 500
-format.name$ -- 92
-if$ -- 1082
+cite$ -- 25
+duplicate$ -- 324
+empty$ -- 597
+format.name$ -- 117
+if$ -- 1322
 int.to.chr$ -- 0
-int.to.str$ -- 21
-missing$ -- 21
-newline$ -- 108
-num.names$ -- 27
-pop$ -- 147
+int.to.str$ -- 25
+missing$ -- 25
+newline$ -- 128
+num.names$ -- 33
+pop$ -- 174
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 54
+skip$ -- 67
 stack$ -- 0
-substring$ -- 16
-swap$ -- 40
-text.length$ -- 1
+substring$ -- 22
+swap$ -- 51
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 25
-width$ -- 23
-write$ -- 232
+while$ -- 31
+width$ -- 27
+write$ -- 278
