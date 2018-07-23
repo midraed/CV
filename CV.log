@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.7.16)  23 JUL 2018 09:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.7.16)  23 JUL 2018 10:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -997,60 +997,57 @@ LaTeX Info: Redefining \nameref on input line 40.
 \@outlinefile=\write11
 \openout11 = `CV.out'.
 
-\makecvheaddetailsbox=\box57
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 43.
- (/usr/share/texmf-dist/tex/latex/lm/ot1lmr.fd
+ (/usr/share/texmf-dist/tex/latex/microtype/mt-mvs.cfg
+File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
+)
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 57.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 57.
+
+(/usr/share/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 43.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 57.
 
 (/usr/share/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 43.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 57.
 
 
 (/usr/share/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 43.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 57.
 
 
 (/usr/share/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 43.
+(Font)              <10.95> on input line 57.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 43.
+(Font)              <8> on input line 57.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 43.
+(Font)              <6> on input line 57.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 63.
+ [1
 
-(/usr/share/texmf-dist/tex/latex/microtype/mt-mvs.cfg
-File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
-)
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 43.
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+\makecvheaddetailsbox=\box57
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 70.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 70.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 70.
 \makecvheadpicturebox=\box58
 \makecvheaddetailswidth=\skip81
 \makecvheadpicturewidth=\skip82
 \makecvheadnamebox=\box59
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--43
-
- []
-
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 44.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 44.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 44.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 45.
-[1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+ [2]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1058,41 +1055,35 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.92 \end{itemize}}
-                   
+l.119 \end{itemize}}
+                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+[3
 
-Underfull \hbox (badness 5519) in paragraph at lines 93--93
-[]|\T1/lmss/bx/n/10.95 Becario de prác-ti-cas pro-fe-sion-ales\T1/lmss/m/n/10.9
-5 (+20) , \T1/lmss/m/sl/10.95 In-sti-tuto Na-cional de Tec-nología
- []
-
-[2
-
-] [3] (./articles.bbl [4]) (./book.bblpdfTeX warning (ext4): destination with t
+] [4] (./articles.bbl [5]) (./book.bblpdfTeX warning (ext4): destination with t
 he same identifier (name{cite.Guevara2018}) has been already used, duplicate ig
 nored
 <to be read again> 
                    \relax 
 l.26 \bibitem{Guevara2018}
-                           [5]) (./software.bbl)
+                           [6]) (./software.bbl)
 
-LaTeX Warning: Citation `Arevalo2018' undefined on input line 186.
-
-
-LaTeX Warning: Citation `Angueira2018' undefined on input line 186.
+LaTeX Warning: Citation `Arevalo2018' undefined on input line 213.
 
 
-LaTeX Warning: Citation `Angelini2018' undefined on input line 186.
+LaTeX Warning: Citation `Angueira2018' undefined on input line 213.
 
 
-LaTeX Warning: Citation `Vallone2018' undefined on input line 186.
+LaTeX Warning: Citation `Angelini2018' undefined on input line 213.
 
 
-LaTeX Warning: Citation `Oliveira2018' undefined on input line 186.
+LaTeX Warning: Citation `Vallone2018' undefined on input line 213.
+
+
+LaTeX Warning: Citation `Oliveira2018' undefined on input line 213.
 
 (./conferences.bblpdfTeX warning (ext4): destination with the same identifier (
 name{cite.Olmedo2018}) has been already used, duplicate ignored
@@ -1104,19 +1095,19 @@ fier (name{cite.Olmedo2018a}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.10 \bibitem{Olmedo2018a}
-                           [6] [7]
+                           [7] [8]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 157.
- [8])
+ [9])
 
-LaTeX Warning: Citation `Olmedo17' undefined on input line 191.
+LaTeX Warning: Citation `Olmedo17' undefined on input line 218.
 
-(./others.bbl) [9] [10] [11]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 237.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 237.
+(./others.bbl) [10] [11] [12]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 264.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 264.
  (./CV.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 237.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 237.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 264.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 264.
 Package rerunfilecheck Info: File `CV.out' has not changed.
 (rerunfilecheck)             Checksum: E7517D60720B392726CAF5F0DC598009;3503.
 
@@ -1125,23 +1116,23 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 30115 strings out of 492649
- 558822 string characters out of 6135778
- 660071 words of memory out of 5000000
- 33403 multiletter control sequences out of 15000+600000
- 599691 words of font info for 116 fonts, out of 8000000 for 9000
+ 30131 strings out of 492649
+ 559055 string characters out of 6135778
+ 661842 words of memory out of 5000000
+ 33405 multiletter control sequences out of 15000+600000
+ 600854 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,13n,60p,10453b,776s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 69i,13n,60p,10453b,774s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf-dist/fo
 nts/type1/public/lm/lmss10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lms
 s12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/share/tex
 mf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf-dist/fonts/type1/p
 ublic/lm/lmsso10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsso8.pfb></
 usr/share/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on CV.pdf (11 pages, 181981 bytes).
+Output written on CV.pdf (12 pages, 182444 bytes).
 PDF statistics:
- 245 PDF objects out of 1000 (max. 8388607)
- 222 compressed objects within 3 object streams
- 79 named destinations out of 1000 (max. 500000)
- 21701 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 250 PDF objects out of 1000 (max. 8388607)
+ 226 compressed objects within 3 object streams
+ 80 named destinations out of 1000 (max. 500000)
+ 22213 words of extra memory for PDF output out of 24883 (max. 10000000)
 
