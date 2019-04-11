@@ -1,48 +1,46 @@
-This is BibTeX, Version 0.99d (TeX Live 2016/Arch Linux)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99d (TeX Live 2018/Arch Linux)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: others.aux
 The style file: unsrt.bst
 Database file #1: others.bib
-Warning--I didn't find a database entry for "Olmedo17CA"
-You've used 4 entries,
+You've used 6 entries,
             1791 wiz_defined-function locations,
-            471 strings with 5136 characters,
-and the built_in function-call counts, 1066 in all, are:
-= -- 75
-> -- 100
-< -- 1
-+ -- 35
-- -- 31
-* -- 78
-:= -- 206
-add.period$ -- 12
-call.type$ -- 4
-change.case$ -- 7
+            480 strings with 5540 characters,
+and the built_in function-call counts, 1535 in all, are:
+= -- 124
+> -- 115
+< -- 2
++ -- 41
+- -- 35
+* -- 100
+:= -- 278
+add.period$ -- 18
+call.type$ -- 6
+change.case$ -- 10
 chr.to.int$ -- 0
-cite$ -- 4
-duplicate$ -- 36
-empty$ -- 66
-format.name$ -- 31
-if$ -- 217
+cite$ -- 6
+duplicate$ -- 60
+empty$ -- 107
+format.name$ -- 35
+if$ -- 327
 int.to.chr$ -- 0
-int.to.str$ -- 4
-missing$ -- 1
-newline$ -- 23
-num.names$ -- 4
-pop$ -- 8
+int.to.str$ -- 6
+missing$ -- 2
+newline$ -- 33
+num.names$ -- 6
+pop$ -- 12
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 20
+skip$ -- 36
 stack$ -- 0
-substring$ -- 32
-swap$ -- 10
-text.length$ -- 1
+substring$ -- 64
+swap$ -- 20
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 7
-width$ -- 5
-write$ -- 47
-(There was 1 warning)
+while$ -- 12
+width$ -- 7
+write$ -- 70

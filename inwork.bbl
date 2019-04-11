@@ -1,16 +1,37 @@
 \begin{thebibliography}{1}
 
-\bibitem{Angueira2015}
-M.~Angueira, G.~Cruzate, E.~Zamora, G.~Olmedo, J.~Sayago, and I.~Castillejo.
-\newblock {Soil mapping based on landscape classification in the semiarid
-  Chaco, Argentina}.
-\newblock 2015.
+\bibitem{GSOC}
+L~Montanarella, G~F Olmedo, Y~Yigini, M~Guevara, R~Baritz, K~Viatkin,
+  P~Borrelli, et~al.
+\newblock {Solving the Large Discrepancies of the Soil Organic Carbon Pool: The
+  United-Nations GSOCmap}.
+\newblock Under review in \textit{Nature}, 2018.
 
-\bibitem{Bedendo2015}
-D.~Bedendo, G.~Schulz, G.~Olmedo, D.~Rodr\'{\i}guez, M.~Angelini, L.~T. Vuegen,
-  J.~Irigoin, and L.~Moretti.
-\newblock {Updating of a physiographically-based soil map throughout digital
-  soil mapping techniques}.
-\newblock 2015.
+\bibitem{SOCARG}
+Guillermo~Federico Olmedo, Marcos Angelini, G~A Schulz, D~M Rodriguez, Taboada
+  M, et~al.
+\newblock Temporal harmonization of a national dataset for spatial prediction
+  of soil organic carbon.
+\newblock Accepted in \textit{Nutrient Cycling in Agroecosystems}, 2018.
+
+\bibitem{Ghana}
+Stephen Owusu, Yusuf Yigini, Guillermo~Federico Olmedo, and C~T Omuto.
+\newblock {Spatial Prediction of Soil Organic Carbon Stocks in Ghana using
+  Legacy Data }.
+\newblock Under review in \textit{Geoderma}, 2018.
+
+\bibitem{ZAF}
+Yolandi Barnard, G~F Olmedo, Albert Strever, Caren Jarmain, and Carlos
+  Poblete-Echeverria.
+\newblock {Evaluating the Accuracy of Leaf Area Index Estimations through
+  different spatial resolutions: Landsat 8, Sentinel-2 and Drone multispectral
+  images}.
+\newblock Submitted to \textit{ Remote Sensing}, 2018.
+
+\bibitem{tomate}
+G~D Aguado, G~F Olmedo, and F~N Ferrari.
+\newblock {Developing crop coefficients for indeterminate tomato (Solanum
+  lycopersicum L.) under shade net and mulching}.
+\newblock Accepted in\textit{ Irrigation Science}, 2018.
 
 \end{thebibliography}
