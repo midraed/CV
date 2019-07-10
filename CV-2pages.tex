@@ -1,0 +1,188 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+% % % Requiere texlive-bibtex-extra
+\documentclass[10pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking} % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{green}
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm} % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm} % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+% personal data
+\usepackage{xstring} %% conditional blabla
+\name{Guillermo}{Olmedo}
+%\address{San Martín 3853}{Luján de Cuyo, M5507EVY}{Mendoza, Argentina}
+\phone[mobile]{+54~(261)~668~9674}
+\phone[fixed]{+54~(261)~496~3020 \textit{ext} 219}
+\email{olmedo.guillermo@inta.gob.ar}
+\social[github]{midraed} % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture} % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+% bibliography with mutiple entries
+\usepackage{multibib}  % Hay que correr bibtex sobre el aux de cada grupo a mano!!
+\newcites{articles,inwork,book,conferences,others,software}{{Articulos},{Articulos aceptados / en revisión},{Libros, Capítulos de libros},{Trabajos en congresos, simposios y seminarios}, {Informes Tecnicos, Publicaciones no seriadas},{Software and Software Manuals}}
+%----------------------------------------------------------------------------------
+% content
+%----------------------------------------------------------------------------------
+
+%% FF: Separar el documento en bloques, que luego agrego o quito a partir
+%% de usos de \input{seccion}
+
+
+\begin{document}
+	
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+% \clearpage
+% 
+% \recipient{Comisión Asesora - Selección cargo adjunto simple Edafología}{Fac. de Ciencias Agrarias \\ Universidad Nacional de Cuyo} % Letter recipient
+% \date{\today} % Letter date
+% \opening{A quien corresponda,} % Opening greeting
+% \closing{Sin otro particular, les saludo atentamente,} % Closing phrase
+% \enclosure[Adjunto]{curriculum vit\ae{}} % List of enclosed documents
+% 
+% \makelettertitle % Print letter title
+% 
+% Por medio de la presente quiero manifestar mi interés en participar de la selección para un cargo de adjunto dedicación simple para los espacios curriculares Edafología y Recurso Suelo, por la modalidad de trámite de procedimiento abreviado. Aprovecho para manifestar que poseo los antecedentes solicitados, teniedo experiencia en docencia de grado y posgrado en esta misma casa de estudios. Actualmente poseo un cargo de jefe de trabajos prácticos en la cátedra de Topografía, donde participo en el dictado de la asignatura electiva "Geomática y agricultura de precisión" y de la asignatura obligatoria "SIG y teledetección". Desde el año 2011 soy docente de posgrado, particularmente en el módulo de "Zonificación vitícola y viticultura de precisión", módulo que actualmente coordino. Además, me desempeño desde hace 6 años como investigador en suelos y riego con énfasis en cartografía en INTA EEA Mendoza. Con respecto a vinculaciones, a nivel nacional formo parte del equipo de cartografía de suelos de INTA, donde actualmente coordino el grupo de trabajo de mapeo digital de suelos. Soy miembro activo de la Asociación Argentina de la Cs. del Suelo, donde he sido presidente de la comisión científica Geografía de Suelos durante 2 mandatos. A nivel internacional, represento a Argentina y a Sud América en la Alianza Mundial por el suelo de FAO y participo en el equipo de trabajo global sobre información de suelos. He asesorado a los gobiernos de muchos países en América Latina, Asia y África sobre la generación eficiente de información de suelos y la disponibilización en sistemas de información. Además, soy miembro del equipo de trabajo de mapeo digital de suelos de la Unión Internacional de la Cs. del Suelo.
+% 
+% Manifiesto que poseo disponibilidad horaria para un cargo de dedicación simple.
+% 
+% \makeletterclosing % Print letter signature
+% 
+% \newpage	
+	
+	
+
+%----- resume ---------------------------------------------------------
+\makecvtitle
+\section{Educación}
+\cventry{2001--2008}{Ingeniero Agrónomo}{Universidad Nacional de Cuyo}{Mendoza, Argentina}{\textit{}}{}  % arguments 3 to 6 can be left empty
+
+\section{Formación de posgrado}
+\cvitem{Título}{\emph{Doctorado en Agronomía} candidato}
+\cvitem{Comité}{\textit{Ph.D.} S. Ortega Farías; \textit{M.Sc.} R. Vallone; \textit{Ph.D.} H. Vila; \textit{Ph.D.} M. Balzarini}
+\cvitem{Tema}{Estimación de la evapotranspiración real de vid a diferentes escalas mediante modelos matemáticos y sensores remotos.}
+
+\section{Gestión}
+\cventry{2011--fecha}{Coordinador}{Laboratorio de Geomática y Agricultura de Precisión}{INTA EEA Mendoza}{}{} 
+
+\cventry{Feb 2019-- Jun 2019}{International Consultant: Soil Expert}{DSM and SIS support at FAO TCP/RLA/3613 }{Food and Agriculture Organization of the UN}{}{FAO Oficina Regional para Sudamérica}
+
+\cventry{Set 2017-- Mar 2018}{International Consultant: Soil Expert}{Soil data and information team}{Food and Agriculture Organization of the United Nations}{}{FAO HQ, Roma, Italia}
+\cventry{2016--fecha}{Representante}{Pilar 4  - Sistemas de información de suelos}{Representante por Sud América}{Alianza Mundial por el Suelo}{FAO}
+\cventry{2014--2018}{Coordinador Técnico de Módulo}{Programa Nacional de Suelos}{INTA}{}{Proyecto Nacional de bases y nuevas herramientas para la cartografía de suelos}
+
+\section{Conferencias}
+\cventry{20 de mayo de 2019}{Lanzamiento del Sistema de información de suelos de América Latina y el Caribe. }{Uso de las herramientas de la Alianza Mundial por el Suelo}{Quito, Ecuador}{FAO}{}
+\cventry{17 de agosto de 2018}{SISLAC: a one-stop shop for soil information in LAC}{21st World Congress of Soil Science}{Rio de Janeiro, Brazil}{IUSS}{}
+\cventry{9 de agosto de 2018}{Carbono orgánico del Suelo - Situación Nacional y Global}{XXVI Congreso AAPRESID}{Córdoba, Argentina}{AAPRESID}{}
+\cventry{11 de agosto de 2017}{Herramientas de manejo, control y monitoreo de riego en Viticultura}{Seminario Vitícola 2017}{Mendoza, Argentina}{ INV}{}
+\cventry{10 de mayo de 2017}{Sensores proximales y remotos en viticultura de precisión}{Curso Internacional de Fruticultura de Precisión 2017}{Rio Negro, Argentina}{¡INTA EEA Alto Valle}{}
+\cventry{5 de julio de 2017}{Global Soil Map 2017 Conference}{Advances in Digital Soil Mapping and Soil Information System in Argentina}{Moscow, Russia}{V.V. Dokuchaev Soil Insitute, RUDN University}{}
+
+
+
+\section{Publicaciones} %papersinwork, book, conferences, others
+
+% Papers
+\nocitearticles{Guevara2018, rs9030268, Olmedo2016, Bedendo2016, Angueira2016}
+\bibliographystylearticles{unsrt}
+\bibliographyarticles{articles}                   % 'publications' is the name of a BibTeX file
+
+%  Work in progress
+%\nociteinwork{GSOC, SOCARG, Ghana,ZAF,tomate}
+%\bibliographystyleinwork{unsrt}
+%\bibliographyinwork{inwork}                   % 'publications' is the name of a BibTeX file
+
+% Conferences
+\nociteconferences{OsorioHermosilla2019, Angueira2019, Olmedo2019, Olmedo2018, Olmedo2018a, NazarioRios2018}
+\bibliographystyleconferences{unsrt}
+\bibliographyconferences{conferences}                   % 'publications' is the name of a BibTeX file
+%
+%
+%% Books
+%\nocitebook{Olmedo2018, Yigini2018, Baritz2018, Guevara2018, Olmedo2018a, Vallone2017, cookbook2017, Gardi2014, Olmedo2014}
+%\bibliographystylebook{unsrt}
+%\bibliographybook{book}                   % 'publications' is the name of a BibTeX file
+%
+%% software
+%\nocitesoftware{Olmedo2016geostat, Olmedo2015, OlmedoVig12015, OlmedoVig22015}
+%\bibliographystylesoftware{unsrt}
+%\bibliographysoftware{software} 
+%
+%
+%%% Others
+%\nociteothers{Olmedo2018STE, Olmedo2017, Vallone2014, Villagra2010, Olmedo2010, Olmedo2009}
+%\bibliographystyleothers{unsrt}
+%\bibliographyothers{others}                   % 'publications' is the name of a BibTeX file
+%
+%
+%
+%\section{Becas y premios}
+%\cventry{2008--2009}{Beca para estudiantes}{INTA EEA Mendoza}{Mendoza, Argentina}{}{Tema: Apoyo para mejorar el uso y gestión de los recursos naturales}
+%\cventry{2009--2012}{Beca para prácticas profesionales}{INTA EEA Mendoza}{Mendoza, Argentina}{}{Teledetección aplicada al relevamiento de los recursos naturales}
+%\cventry{mayo de 2015}{Full Scholarship}{Ministerio de Comercio de la República Popular China}{Nanjing, China}{}{Seminar on Applications of Information Technology on Agriculture}
+%\cventry{12 de mayo de 2016}{Spatial Prediction Competition 2016}{ISRIC World Soil Institute}{Wageningen, The Netherlands}{Spring School 2016}{Best Spatial Prediction \& Best Uncertainity Estimation}
+%
+%
+%\section{Dirección de Recursos Humanos}
+%\subsection{Trabajos de Tesis}
+%\cventry{2019}{Co-director}{Sergio Diaz Guadarrama}{Tesis para optar por el título de Magister en Geomática}{Universidad Nacional de Colombia}{Implementación de algoritmos de pedología cuantitativa en el Sistema de Información de Suelos de Latinoamérica y el Caribe}
+%\cventry{2019}{Asesor}{Sergio Velez Martín}{Tesis para optar por el título de Dr. en Cs. Agropecuarias}{Universidad de León, España}{Tema: Detección de eventos meteorológicos (heladas, granizo) en viticultura a partir de modelos multitemporales basados en sensores remotos}
+%\cventry{2019}{Director}{Claudia Toso}{Tesis para optar por el título de ingeniero agrónomo}{Universidad de Buenos Aires, Argentina}{Tema: Modelamiento del estrés hídrico en vid a partir de imágenes térmicas}
+%\cventry{2018}{Director}{Francisco Corvalán}{Tesis para optar por el título de Ingeniero en Recursos Naturales}{Universidad Nacional de Cuyo, Argentina}{Tema: Dinámica temporal del carbono orgánico de suelos mediante técnicas de mapeo digital de suelos}
+%\cventry{2017}{Co Tutor}{Ramiro Collado}{Tesis para optar por el título de Técnico en Teledetección y SIG}{Universidad Nacional de Cuyo, Argentina}{Tema: Monitoreo del estrés hídrico en viñedos mediante imágenes satelitales térmicas}
+%\cventry{2017}{Asesor}{Zully Moreno}{Tesis para optar al título de MSc en Viticultura y Enología}{Universidad Nacional de Cuyo, Argentina}{Tema: El suelo como factor de produccion viticola de los cultivares Malbec y PN, San Patricio del Chañar, Patagonia}
+%\cventry{2016}{Co-tutor}{Roberto Carlos Ahumada García}{Tesis para optar por el título de Ingeniero en Bioinformática}{Universidad de Talca, Chile}{Tema: Evaluación de Métodos de Inferencia de Perfiles de Temperatura Foliar en Vides: Aplicación en Sensores Infrarrojos Integrados en Vehículos Motorizados. \textbf{Aprobado 6.5/7}}
+%\cventry{2014}{Asesor}{María Cristina Angueira}{Tesis para optar por el título de Doctor}{Universidad de Córdoba, España}{Tema: Relevamiento de suelos aplicando nuevas técnicas de Geomática: un caso Santiago del Estero, Argentina.}
+%\cventry{2014}{Asesor}{María Eugenia Solanes}{Tesis para optar por el título de Magister en Viticultura y Enología}{Universidad de Cuyo, Mendoza}{Tema: Relación entre  características fisicoquímicas del suelo y el potencial enológico de las uvas del cv Malbec en la región de Valle de Uco, Mendoza.}
+%\cventry{2013}{Asesor}{Leandro Javier Cara}{Tesis para optar al título de Lic. en Geología}{Universidad de San Juan, Argentina}{Tema: Análisis Geomorfológico Digital del Valle Intermontano del Departamento de Tupungato Provincia de Mendoza.}
+%
+%\subsection{Becarios / Pasantes}
+%\cventry{2019}{Francisco Corvalán}{Ing. En recursos naturales renovables}{Beca Vuelta al Pago - UNCuyo}{}{Dinámica temporal del carbono orgánico de suelos mediante técnicas de mapeo digital de suelos}
+%\cventry{2019}{José Aguilera}{Ing. Agrónomo}{Beca Vuelta al Pago - UNCuyo}{}{Infraestructura de datos espaciales para arbolado público viario}
+%\cventry{2019}{Gonzalo Guñi}{Ing. En recursos naturales renovables}{Beca Vuelta al Pago - UNCuyo}{}{Sensores remotos para el modelamiento de servicios ecosistémicos del arbolado público viario}
+%\cventry{2018}{Stephanie Reiter}{Geographer}{Intern at FAO HQ}{}{Global Soil Organic Carbon Mapping}
+%\cventry{2017}{María Victoria Munafó}{Ingeniero Agrónomo}{Beca INTA-AUDEAS}{2 años}{Sensores remotos, UAV y proximales en viticultura de precisión}
+%\cventry{2017}{Martín Gaivazzi}{Ing. Agrónomo}{}{6 meses}{Riego de precisión. Modelamiento de láminas aplicadas y su efecto en suelo y planta}
+%\cventry{2017}{Valentina Navarro Canafoglia.}{Ing. Agrónomo}{}{6 meses}{Estimación del avance urbano sobre la interfase urbano-rural del Oasis Norte de la Provincia de Mendoza. Análisis temporal y espacial.}
+%\cventry{2017}{Ramiro Collado.}{Tec. En Geomática}{}{6 meses}{Estimación de estrés hídrico en la vid mediante sensores remotos térmico.}
+%\cventry{2016}{Valentina Navarro Canafoglia.}{Ing. Agrónomo}{}{6 meses}{Estimación del avance urbano sobre la interfase urbano-rural del Oasis Norte de la Provincia de Mendoza. Análisis temporal y espacial.}
+%\cventry{2016}{Julia Calandria.}{Ing. Agrónomo}{}{6 meses}{Relaciones entre índices verdes, longitud de brotes y área foliar. Coeficiente de sombras.}
+%\cventry{2013}{Nicolás Suvieta.}{Tec. En Geomática}{}{3 meses}{Evolución de la superficie agrícola del Valle de Uco en 1983-2013, mediante sensores remotos.}
+%\cventry{2012}{Ayelén Massó}{Geógrafa Prof.}{}{3 meses}{Sistema de información Territorial del área de influencia de la EEA INTA Mendoza.}
+%\cventry{2011}{Romina Hernandez}{Ing. Agrónomo}{}{3 meses}{Caracterización de suelos para la instalación de un lisímetro de pesada}
+%\cventry{2010}{Federico Albrieu}{Ing. Agrónomo}{}{3 meses}{Uso de sondas de inducción electromagnética para la caracterización de suelos}
+%\cventry{2009}{María Sol Villegas}{Ing. Agrónomo}{}{3 meses}{Uso de sondas de inducción electromagnética para la caracterización de suelos}
+%\cventry{2009}{Martín Retamales}{Ing. Agrónomo}{}{3 meses}{Uso de sondas de inducción electromagnética para la caracterización de suelos}
+%
+%%\section{Afiliaciones}
+%%\cvitem{Socio}{Asociación Argentina de la Ciencia de Suelos}
+%%\cvitem{Miembro}{Open Source Geospatial Foundation}
+%%\cvitem{Miembro}{Foundation for Open Access Statistics}
+%%
+%%%\section{Revisión de trabajos}
+%%%\cvitemwithcomment{2014}{Revista Argentina de la Ciencia del Suelo}{Asociación Argentina de la Ciencia de Suelo}
+%%%\cvitemwithcomment{2014}{Agrociencia}{Facultad de Agronomía de la Universidad de la República; Instituto Nacional de Investigación Agropecuaria, Uruguay.}
+%%\section{Idiomas}
+%%\cvitem{Español}{lengua nativa}
+%%\cvitem{Inglés}{Working level}
+%%\section{Intereses}
+%%\cvitem{Ciencia de datos}{Machine learning, Big data}
+%%\cvitem{Geomática}{Variabilidad espacial, modelado, sensores remotos y proximales}
+%%\cvitem{Suelos}{Cartografía, Génesis, Clasificación}
+%%\cvitem{Agua}{Eficiencia, Necesidades, Evapotranspiración}
+\end{document}
